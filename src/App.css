@@ -16,6 +16,17 @@ html, body, #root {
   padding-bottom: 60px;
 }
 
+.App .add-btn {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  border-radius: 50%;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  line-height: 1em;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

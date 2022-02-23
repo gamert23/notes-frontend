@@ -27,7 +27,7 @@
   background-color: #ff7eb9;
 }
 
-.note:hover {
+.note:hover, .note.note--focused {
   transform: scale(1.5);
   z-index: 5;
 }
@@ -35,8 +35,16 @@
 .note__text {
   font-weight: bold;
   flex: 1;
+  outline: none;
+  margin-top: 10px;
 }
 
 .note__link {
   display: none;
+}
+
+.note .btn-close {
+  position: absolute;
+  right: 8px;
+  top: 8px;
 }
